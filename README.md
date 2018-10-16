@@ -1,6 +1,6 @@
 # OCTOPUS example with rails 5.2
 
-In this example, I use octopus for use many databases in the same project.
+In this example, I use octopus for multiple databases management in the same project.
 At the moment that this document is wrote, there is not stable version of the gem for rails 5.2, so I use the branch that has the compatibility proved:
 
 ```gem 'ar-octopus', :git => "https://github.com/thiagopradi/octopus.git", :branch => "feature/updating-octopus-versions"```
