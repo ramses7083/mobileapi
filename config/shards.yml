@@ -1,0 +1,15 @@
+octopus:
+  environments:
+    - development
+    - production
+  development:
+    first_db_shard:
+      host: localhost
+      adapter: postgresql
+      database: first-db_development
+
+  production:
+    second_db_shard:
+      host: localhost
+      adapter: mysql
+      database: second-db_development
